@@ -1,0 +1,25 @@
+.second-section {
+    background-color: #ffc40c;
+    height: 442px;
+}
+
+.second-section__text {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 101px 133px;
+    width: 49.89%;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: #2a2a2a;
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.second-section > img {
+    vertical-align: top;
+    width: 49.89%;
+    height: 100%;
+    object-fit: cover;
+}
