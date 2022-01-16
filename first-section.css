@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'Jubilat';
+    src: url('https://assets.website-files.com/59d5399de966f4000142dd2e/59d5413a965779000179c509_Jubilat-Light.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url('https://assets.website-files.com/59d5399de966f4000142dd2e/59d541aa65597f00011291a5_Lato-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Brandon Grotesque';
+    src: url('https://assets.website-files.com/59d5399de966f4000142dd2e/59d5416265597f000112918c_Brandon_bld.otf') format('opentype');
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Lato, Arial, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-section {
+    padding: 100px 0;
+    background-color: #f4f4f2;
+}
+
+.first-section__container {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.first-section__header__heading {
+    margin: 0;
+    margin-bottom: 1px;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: #273c48;
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 200;
+    text-align: center;
+}
+
+.first-section__header__text {
+    margin: 0;
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+}
+
+.first-section__primary {
+    margin: 57px 0px;
+    vertical-align: top;
+    height: 488px;
+}
+
+.first-section__primary__white-tile {
+    display: inline-block;
+    vertical-align: top;
+    padding: 156px 49px 0 49px;
+    width: 400px;
+    height: 100%;
+    background-color: #fff;
+}
+
+.first-section__article__heading {
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: #273c48;
+    font-size: 33px;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+
+.first-section__article__text {
+    margin: 0;
+    font-family: Lato, Arial, sans-serif;
+    color: #686868;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.6px;
+}
+
+.first-section__primary__photo-tile {
+    display: inline-block;
+    vertical-align: top;
+    padding: 274px 40px 40px 40px;
+    width: 560px;
+    height: 100%;
+    background-image: linear-gradient(0deg, #2d2d2d, transparent 70%), url(./assets/teaching.png);
+    background-position: 0px 0px, 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.first-section__primary__photo-tile__subheading {
+    margin: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Brandon Grotesque', Arial, sans-serif;
+    color: #fff;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.first-section__primary__photo-tile__heading {
+    margin: 0;
+    font-family: Jubilat, Georgia, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.link:hover {
+    cursor: pointer;
+    transition: color 200ms ease;
+    color: #ffc40c;
+}
+
+.first-section__secondary {
+    vertical-align: top;
+    height: 483.4px;
+}
+
+.first-section__secondary img {
+    width: 460px;
+    height: 242px;
+    object-fit: cover;
+    overflow: hidden;
+    border: solid;
+    border-width: 0 0 8px 0;
+    border-bottom-color: #ffc40c;
+    transition: transform .2s;
+}
+
+.first-section__secondary img:hover {
+    transform: scale(1.05);
+}
+
+.first-section__secondary__column {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+    width: 480px;
+    cursor: pointer;
+}
+
+.first-column-img {
+    object-position: top;
+}
+
+.first-section__secondary__column__content {
+    padding: 52px 31px;
+}
