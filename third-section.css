@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Jubilat';
+    src: url('https://assets.website-files.com/59d5399de966f4000142dd2e/59d7c2be9215eb00015cc4c8_Jubilat-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: auto;
+  }
+
+.third-section {
+    text-align: center;
+    margin: 200px auto;
+    width: 600px;
+}
+
+.third-section__quote {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: 'Jubilat', Georgia, sans-serif;
+    color: #273c48;
+    font-size: 50px;
+    line-height: 57px;
+    font-weight: 700;
+}
+
+.third-section__quote-attribution {
+    margin: 0;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    font-family: 'Brandon Grotesque', Arial, sans-serif;
+    color: #979797;
+    font-size: 11px;
+    line-height: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
